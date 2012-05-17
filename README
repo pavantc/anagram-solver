@@ -1,0 +1,11 @@
+anagram.c	- Program to solve anagrams
+tree.h		- FreeBSD RB Tree implementation
+word_comb.c	- Program to generate all combinations of a given string
+wsearch.c	- Program to search if a given word is in the dictionary or not
+wsolver.c	- Program to create all possible words using all the characters of a given string
+
+Each of the above is a separate program
+Note - The current dictionary being used is /usr/share/dict/words
+
+Compilation instructions -
+gcc <file.c> -o <executable-file-name>
